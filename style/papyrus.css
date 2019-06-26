@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Enriqueta&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Enriqueta", serif;
+  border: none;
+  text-decoration: none;
+  color: inherit;
+  background-color: #eee2d2;
+}
+
+.main {
+  margin: 3em auto;
+  max-width: 45em;
+  padding: 0 3em;
+  color: #b04838;
+}
+
+h1 {
+  display: inline;
+  font-weight: 700;
+  font-size: 5.5em;
+  text-shadow: 1px 1px 0 #51394d, 3px 3px 0 #422f3f, 4px 4px 0 #332431, 5px 5px 0 #241922, 6px 6px 0 #0f0b0e;
+}
+
+hr {
+  border: 1px solid #51394e;
+  border-radius: 5px;
+  width: 10%;
+  margin: 1.2em auto;
+}
+
+.about-thing .linkurl {
+  font-weight: 500;
+  font-size: 4em;
+  display: block;
+  margin: 0.2em auto;
+  -webkit-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+}
+
+.about-thing .linkurl:hover {
+  color: #303F4B;
+}
+
+.about-thing p {
+  font-size: 1.5em;
+}
+
+.contact {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+@media (max-width: 40em) {
+  .main {
+    font-size: 0.5em;
+  }
+}
+/*# sourceMappingURL=papyrus.css.map */
